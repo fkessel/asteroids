@@ -20,6 +20,7 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
 
+        player.update(delta)
         # fill the screen with a color to wipe away anything from last frame
         screen.fill("black")
 
